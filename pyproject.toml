@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "aiohttp>=3.6.1,<4.0", "prometheus-client>=0.14.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyuptimekuma"
+version = "0.0.1"
+authors = [
+  { name="Jayakorn Karikan", email="jayakornk@gmail.com" },
+]
+description = "Simple Python wrapper for Uptime Kuma"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jayakornk/pyuptimekuma"
+"Bug Tracker" = "https://github.com/jayakornk/pyuptimekuma/issues"
