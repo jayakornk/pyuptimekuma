@@ -4,6 +4,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from enum import Enum
 from typing import Any
+
 from prometheus_client.parser import text_string_to_metric_families as parser
 
 
@@ -88,7 +89,6 @@ class UptimeKumaApiResponse(UptimeKumaBaseModel):
                         monitors.append(temp)
                     else:
                         monitors[existed][sample.name] = sample.value
-        # print(monitors)
         obj["data"] = [
             UptimeKumaMonitor.from_dict(monitor) for monitor in monitors
         ]

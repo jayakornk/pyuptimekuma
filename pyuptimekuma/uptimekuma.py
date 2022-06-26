@@ -4,6 +4,7 @@ from aiohttp import ClientSession
 from .decorator import api_request
 from .models import UptimeKumaApiResponse
 
+
 class UptimeKuma:
     """This class is used to get information from Uptime Kuma."""
 
