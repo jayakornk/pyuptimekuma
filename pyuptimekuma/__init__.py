@@ -3,4 +3,4 @@ from .exceptions import *
 from .models import *
 from .uptimekuma import UptimeKuma
 
-__version__ = '0.0.4'
+__version__ = '0.0.5'
