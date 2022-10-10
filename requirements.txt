@@ -1,6 +1,6 @@
 aiohttp==3.8.3
 prometheus-client==0.14.1
-black==22.3.0
+black==22.10.0
 isort==5.10.1
 cchardet==2.1.7
 aiodns==3.0.0
